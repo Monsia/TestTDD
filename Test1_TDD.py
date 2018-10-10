@@ -8,16 +8,16 @@ class MyFirstTests(unittest.TestCase):
         self.assertEqual(hello_world(), "hello world")  # fonction à tester et résultat attendu
 
     def testScoreCalculator1(self):
-        self.assertEqual(ScoreCalculator("Joseph", 15), "0.66")
+        self.assertEqual(ScoreCalculator("Joseph", 15), "0.660")
 
     def testScoreCalculator2(self):
-        self.assertEqual(ScoreCalculator("Marie", 33), "0.5")
+        self.assertEqual(ScoreCalculator("Marie", 33), "0.50")
 
     def testScoreCalculator3(self):
-        self.assertEqual(ScoreCalculator("Marc", 60), "0.43")
+        self.assertEqual(ScoreCalculator("Marc", 60), "0.430")
 
     def testScoreCalculator4(self):
-        self.assertEqual(ScoreCalculator("Ely", 28), "0.75")
+        self.assertEqual(ScoreCalculator("Ely", 28), "0.750")
 
     def testScoreCalculator5 (self, dico):
         dico = {('Joseph', 15): 0.66, ('Marie', 33): 33, ('Marc', 60): 0.43, ('Ely', 28): 0.75}
