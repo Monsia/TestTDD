@@ -22,7 +22,7 @@ class MyFirstTests(unittest.TestCase):
     def testScoreCalculator5 (self, dico):
         dico = {('Joseph', 15): 0.66, ('Marie', 33): 33, ('Marc', 60): 0.43, ('Ely', 28): 0.75}
         self.assertEqual(ScoreCalculator1(dico,("Joseph", 15), "0.66"))
-
+# comment pour test
 
 
 
